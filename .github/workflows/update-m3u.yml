@@ -36,7 +36,7 @@ jobs:
       - name: Modify rtp addresses
         # 在您的仓库目录中修改文件
         run: |
-          sed -i 's|rtp://|172.17.0.2:4022|g' ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
+          sed -i 's|rtp://|http://172.17.0.2:4022/|g' ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
 
       - name: Commit and push changes
         # 使用 git-auto-commit-action 提交您的仓库目录中的更改
