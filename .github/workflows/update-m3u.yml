@@ -35,18 +35,18 @@ jobs:
       - name: Copy target file to working directory
         # 将文件从源目录复制到我们检出自己仓库的目录
         run: |
-          cp ./source-repo/GuangdongIPTV_rtp_all.m3u ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
+          cp ./source-repo/*.m3u ./my-repo-checkout/
 
       - name: Modify rtp addresses
         # 在您的仓库目录中修改文件
         run: |
-          sed -i 's|rtp://|http://${{ env.UDPXY_IP_ADDRESS }}:${{ env.UDPXY_PORT }}/rtp/|g' ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
+          sed -i 's|rtp://|http://${{ env.UDPXY_IP_ADDRESS }}:${{ env.UDPXY_PORT }}/rtp/|g' ./my-repo-checkout/*.m3u
 
       - name: Commit and push changes
         # 使用 git-auto-commit-action 提交您的仓库目录中的更改
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update GuangdongIPTV_rtp_all.m3u with local URLs"
+          commit_message: "Auto-update m3u with udpxy URLs"
           branch: main # 或您的默认分支名称
           # 指定 auto-commit-action 在哪里查找更改
           repository: './my-repo-checkout'
