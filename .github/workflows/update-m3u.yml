@@ -43,6 +43,6 @@ jobs:
         with:
           commit_message: "Auto-update GuangdongIPTV_rtp_all.m3u with local URLs"
           branch: main # 或您的默认分支名称
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.all }}
           # 指定 auto-commit-action 在哪里查找更改
           repository: './my-repo-checkout'
