@@ -6,7 +6,11 @@ on:
     - cron: '0 5 1 * *'
   workflow_dispatch:
     # 允许手动从 Actions 标签页触发
-
+    
+env:
+  UDPXY_IP_ADDRESS: "172.17.0.2"
+  UDPXY_PORT: "4022"
+  
 jobs:
   update-file:
     runs-on: ubuntu-latest
@@ -36,7 +40,7 @@ jobs:
       - name: Modify rtp addresses
         # 在您的仓库目录中修改文件
         run: |
-          sed -i 's|rtp://|http://172.17.0.2:4022/|g' ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
+          sed -i 's|rtp://|http://${{ env.UDPXY_IP_ADDRESS }}:${{ env.UDPXY_PORT }}/rtp/|g' ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
 
       - name: Commit and push changes
         # 使用 git-auto-commit-action 提交您的仓库目录中的更改
