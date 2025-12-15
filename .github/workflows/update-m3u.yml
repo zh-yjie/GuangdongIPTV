@@ -3,7 +3,7 @@ name: Update GuangdongIPTV m3u File
 on:
   schedule:
     # 每天 UTC 时间凌晨 00:00 运行
-    - cron: '0 0 * * *'
+    - cron: '0 5 1 * *'
   workflow_dispatch:
     # 允许手动从 Actions 标签页触发
 
@@ -42,7 +42,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update GuangdongIPTV_rtp_all.m3u with local URLs"
-          branch: master # 或您的默认分支名称
+          branch: main # 或您的默认分支名称
           token: ${{ secrets.GITHUB_TOKEN }}
           # 指定 auto-commit-action 在哪里查找更改
           repository: './my-repo-checkout'
