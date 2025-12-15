@@ -1,0 +1,48 @@
+name: Update GuangdongIPTV m3u File
+
+on:
+  schedule:
+    # 每天 UTC 时间凌晨 00:00 运行
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # 允许手动从 Actions 标签页触发
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout *your* repository
+        # 检出您的目标仓库
+        uses: actions/checkout@v4
+        with:
+          path: './my-repo-checkout'
+          token: ${{ secrets.REPO_PAT }}
+
+      - name: Checkout source repository (Tzwcard)
+        # 检出源仓库到另一个目录
+        uses: actions/checkout@v4
+        with:
+          repository: 'Tzwcard/ChinaTelecom-GuangdongIPTV-RTP-List'
+          path: './source-repo'
+          # 不需要 token，因为它是公共仓库
+
+      - name: Copy target file to working directory
+        # 将文件从源目录复制到我们检出自己仓库的目录
+        run: |
+          cp ./source-repo/GuangdongIPTV_rtp_all.m3u ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
+
+      - name: Modify rtp addresses
+        # 在您的仓库目录中修改文件
+        run: |
+          sed -i 's|rtp://|172.17.0.2:4022|g' ./my-repo-checkout/GuangdongIPTV_rtp_all.m3u
+
+      - name: Commit and push changes
+        # 使用 git-auto-commit-action 提交您的仓库目录中的更改
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update GuangdongIPTV_rtp_all.m3u with local URLs"
+          branch: master # 或您的默认分支名称
+          token: ${{ secrets.REPO_PAT }}
+          # 指定 auto-commit-action 在哪里查找更改
+          repository: './my-repo-checkout'
