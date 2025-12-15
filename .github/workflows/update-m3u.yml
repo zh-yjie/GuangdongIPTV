@@ -10,14 +10,15 @@ on:
 jobs:
   update-file:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout *your* repository
         # 检出您的目标仓库
         uses: actions/checkout@v4
         with:
           path: './my-repo-checkout'
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout source repository (Tzwcard)
         # 检出源仓库到另一个目录
@@ -43,6 +44,5 @@ jobs:
         with:
           commit_message: "Auto-update GuangdongIPTV_rtp_all.m3u with local URLs"
           branch: main # 或您的默认分支名称
-          token: ${{ secrets.all }}
           # 指定 auto-commit-action 在哪里查找更改
           repository: './my-repo-checkout'
