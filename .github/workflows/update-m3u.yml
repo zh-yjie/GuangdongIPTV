@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: './my-repo-checkout'
-          token: ${{ secrets.REPO_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout source repository (Tzwcard)
         # 检出源仓库到另一个目录
@@ -43,6 +43,6 @@ jobs:
         with:
           commit_message: "Auto-update GuangdongIPTV_rtp_all.m3u with local URLs"
           branch: master # 或您的默认分支名称
-          token: ${{ secrets.REPO_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           # 指定 auto-commit-action 在哪里查找更改
           repository: './my-repo-checkout'
