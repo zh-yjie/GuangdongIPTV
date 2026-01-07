@@ -40,7 +40,7 @@ jobs:
       - name: Modify rtp addresses
         # 在您的仓库目录中修改文件
         run: |
-          sed -i 's|rtp://|http://${{ env.UDPXY_IP_ADDRESS }}:${{ env.UDPXY_PORT }}/rtp/|g' ./my-repo-checkout/*.m3u
+          sed -i 's|rtp://|http://${{ env.UDPXY_IP_ADDRESS }}:${{ env.UDPXY_PORT }}/udp/|g' ./my-repo-checkout/*.m3u
 
       - name: update iptv-api gat playlist
         # 更新港澳台播放清单
