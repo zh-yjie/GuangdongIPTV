@@ -2,14 +2,14 @@ name: Update GuangdongIPTV m3u File
 
 on:
   schedule:
-    # 每天 UTC 时间凌晨 00:00 运行
-    - cron: '0 5 1 * *'
+    # 每周一凌晨 02:00 运行
+    - cron: '0 2 * * 1'
   workflow_dispatch:
     # 允许手动从 Actions 标签页触发
     
 env:
   UDPXY_IP_ADDRESS: "172.17.0.2"
-  UDPXY_PORT: "4022"
+  UDPXY_PORT: "7878"
   
 jobs:
   update-file:
@@ -41,6 +41,13 @@ jobs:
         # 在您的仓库目录中修改文件
         run: |
           sed -i 's|rtp://|http://${{ env.UDPXY_IP_ADDRESS }}:${{ env.UDPXY_PORT }}/rtp/|g' ./my-repo-checkout/*.m3u
+
+      - name: update iptv-api gat playlist
+        # 更新港澳台播放清单
+        run: |
+          curl -L "https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/gd/output/result.m3u" | \
+          awk 'BEGIN {print "#EXTM3U"} /group-title="🌊港·澳·台"/ {print; getline; print}' > ./my-repo-checkout/iptv-gat.m3u
+
 
       - name: Commit and push changes
         # 使用 git-auto-commit-action 提交您的仓库目录中的更改
