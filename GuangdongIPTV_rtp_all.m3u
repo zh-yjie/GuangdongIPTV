@@ -13,7 +13,7 @@ http://172.17.0.2:7878/udp/239.77.0.65:5146
 http://172.17.0.2:7878/udp/239.77.0.66:5146
 #EXTINF:-1 tvg-name="广东卫视" group-title="IPTV-广东电视台",广东卫视超清
 http://172.17.0.2:7878/udp/239.77.0.166:5146
-#EXTINF:-1 tvg-name="广东卫视" group-title="IPTV-广东电视台",广东卫视 4K (AVS2)
+#EXTINF:-1 tvg-name="广东卫视" group-title="IPTV-广东电视台",广东卫视 4K
 http://172.17.0.2:7878/udp/239.77.1.96:5146
 #EXTINF:-1 tvg-name="广东卫视" group-title="IPTV-广东电视台",广东卫视 4K (AVS2)
 http://172.17.0.2:7878/udp/239.77.1.16:5146
@@ -93,11 +93,11 @@ http://172.17.0.2:7878/udp/239.77.0.67:5146
 http://172.17.0.2:7878/udp/239.77.0.130:5146
 #EXTINF:-1 tvg-name="深圳卫视 25p" group-title="IPTV-深圳电视台",深圳卫视 25p 4K
 http://172.17.0.2:7878/udp/239.77.1.14:5146
-#EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视 4K
+#EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视 4K (AVS2)
 http://172.17.0.2:7878/udp/239.77.1.24:5146
 #EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视 4K
 http://172.17.0.2:7878/udp/239.77.1.191:5146
-#EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视 4K (AVS2)
+#EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视 4K
 http://172.17.0.2:7878/udp/239.77.1.194:5146
 #EXTINF:-1 tvg-name="深圳都市频道" group-title="IPTV-深圳电视台",深圳都市频道高清
 http://172.17.0.2:7878/udp/239.77.1.176:5146
@@ -277,7 +277,7 @@ http://172.17.0.2:7878/udp/239.77.0.135:5146
 http://172.17.0.2:7878/udp/239.77.0.39:5146
 #EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清
 http://172.17.0.2:7878/udp/239.77.1.113:5146
-#EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清
+#EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.1.169:5146
 #EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清测试(CCTV-10科教高清)
 http://172.17.0.2:7878/udp/239.77.0.134:5146
@@ -381,7 +381,7 @@ http://172.17.0.2:7878/udp/239.77.0.90:5146
 http://172.17.0.2:7878/udp/239.77.0.7:5146
 #EXTINF:-1 tvg-name="江苏卫视" group-title="IPTV-卫视",江苏卫视高清
 http://172.17.0.2:7878/udp/239.77.1.18:5146
-#EXTINF:-1 tvg-name="江苏卫视" group-title="IPTV-卫视",江苏卫视高清 (CAVS)
+#EXTINF:-1 tvg-name="江苏卫视" group-title="IPTV-卫视",江苏卫视高清
 http://172.17.0.2:7878/udp/239.77.1.149:5146
 #EXTINF:-1 tvg-name="江苏卫视" group-title="IPTV-卫视",江苏卫视4k超高清
 http://172.17.0.2:7878/udp/239.77.0.57:5146
@@ -393,19 +393,19 @@ http://172.17.0.2:7878/udp/239.77.1.36:5146
 http://172.17.0.2:7878/udp/239.77.0.98:5146
 #EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视高清
 http://172.17.0.2:7878/udp/239.77.0.5:5146
-#EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视高清 (CAVS)
+#EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视高清
 http://172.17.0.2:7878/udp/239.77.1.156:5146
 #EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视高清
 http://172.17.0.2:7878/udp/239.77.1.218:5146
 #EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视4k超高清
 http://172.17.0.2:7878/udp/239.77.0.59:5146
-#EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视 4K
+#EXTINF:-1 tvg-name="东方卫视" group-title="IPTV-卫视",东方卫视 4K (AVS2)
 http://172.17.0.2:7878/udp/239.77.1.34:5146
 #EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视
 http://172.17.0.2:7878/udp/239.77.0.183:5146
 #EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视高清
 http://172.17.0.2:7878/udp/239.77.1.92:5146
-#EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视高清 (CAVS)
+#EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视高清
 http://172.17.0.2:7878/udp/239.77.1.157:5146
 #EXTINF:-1 tvg-name="北京卫视" group-title="IPTV-卫视",北京卫视时移专用(北京卫视)
 http://172.17.0.2:7878/udp/239.77.0.91:5146
@@ -763,18 +763,20 @@ http://172.17.0.2:7878/udp/239.77.1.184:5146
 http://172.17.0.2:7878/udp/239.77.1.185:5146
 #EXTINF:-1,PPTV-4
 http://172.17.0.2:7878/udp/239.77.1.186:5146
+#EXTINF:-1,Unknown@239.77.0.218:5146
+http://172.17.0.2:7878/udp/239.77.0.218:5146
 #EXTINF:-1,Unknown@239.77.1.219:5146
 http://172.17.0.2:7878/udp/239.77.1.219:5146
 #EXTINF:-1,Unknown@239.77.1.234:5146
 http://172.17.0.2:7878/udp/239.77.1.234:5146
 #EXTINF:-1,广东IPTV广告
-http://172.17.0.2:7878/udp/239.77.0.193:5146
-#EXTINF:-1,广东IPTV广告
-http://172.17.0.2:7878/udp/239.77.0.191:5146
+http://172.17.0.2:7878/udp/239.77.0.241:5146
 #EXTINF:-1,广东IPTV广告
 http://172.17.0.2:7878/udp/239.77.0.190:5146
 #EXTINF:-1,广东IPTV广告
-http://172.17.0.2:7878/udp/239.77.0.241:5146
+http://172.17.0.2:7878/udp/239.77.0.191:5146
+#EXTINF:-1,广东IPTV广告
+http://172.17.0.2:7878/udp/239.77.0.193:5146
 #EXTINF:-1,广东IPTV广告
 http://172.17.0.2:7878/udp/239.77.0.240:5146
 #EXTINF:-1,百视通体育直播室1
