@@ -1,4 +1,6 @@
 #EXTM3U name="广东电信IPTV"
+#EXTINF:-1 tvg-name="广东卫视" group-title="IPTV-广东电视台",广东卫视4k超高清
+http://172.17.0.2:7878/udp/239.77.0.66:5146
 #EXTINF:-1 tvg-name="广东珠江" group-title="IPTV-广东电视台",广东珠江
 http://172.17.0.2:7878/udp/239.77.1.94:5146
 #EXTINF:-1 tvg-name="广东体育" group-title="IPTV-广东电视台",广东体育（深圳）
@@ -99,16 +101,18 @@ http://172.17.0.2:7878/udp/239.77.0.83:5146
 http://172.17.0.2:7878/udp/239.77.1.35:5146
 #EXTINF:-1 tvg-name="环球奇观" group-title="IPTV-数字付费",环球奇观
 http://172.17.0.2:7878/udp/239.253.43.126:5146
-#EXTINF:-1 tvg-name="环球奇观" group-title="IPTV-数字付费",环球奇观
-http://172.17.0.2:7878/udp/239.77.1.198:5146
+#EXTINF:-1 tvg-name="书画" group-title="IPTV-数字付费",书画频道
+http://172.17.0.2:7878/udp/239.77.1.115:5146
 #EXTINF:-1 tvg-name="国学" group-title="IPTV-数字付费",国学
 http://172.17.0.2:7878/udp/239.77.0.226:5146
+#EXTINF:-1 tvg-name="国学" group-title="IPTV-数字付费",国学频道
+http://172.17.0.2:7878/udp/239.77.1.105:5146
 #EXTINF:-1 tvg-name="汽摩" group-title="IPTV-数字付费",汽摩
 http://172.17.0.2:7878/udp/239.77.0.209:5146
+#EXTINF:-1 tvg-name="汽摩" group-title="IPTV-数字付费",汽摩
+http://172.17.0.2:7878/udp/239.77.1.205:5146
 #EXTINF:-1,EBU
 http://172.17.0.2:7878/udp/239.253.43.165:5146
-#EXTINF:-1,广东IPTV广告
-http://172.17.0.2:7878/udp/239.77.0.193:5146
 #EXTINF:-1,广东IPTV广告
 http://172.17.0.2:7878/udp/239.77.0.240:5146
 #EXTINF:-1,广东IPTV广告
@@ -117,6 +121,8 @@ http://172.17.0.2:7878/udp/239.77.0.241:5146
 http://172.17.0.2:7878/udp/239.77.0.190:5146
 #EXTINF:-1,广东IPTV广告
 http://172.17.0.2:7878/udp/239.77.0.191:5146
+#EXTINF:-1,广东IPTV广告
+http://172.17.0.2:7878/udp/239.77.0.193:5146
 #EXTINF:-1,百视通体育直播室1
 http://172.17.0.2:7878/udp/239.253.43.115:5146
 #EXTINF:-1,百视通体育直播室4
