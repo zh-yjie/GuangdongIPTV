@@ -52,6 +52,8 @@ http://172.17.0.2:7878/udp/239.77.1.3:5146
 #EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视高清
 http://172.17.0.2:7878/udp/239.77.1.107:5146
 #EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视高清
+http://172.17.0.2:7878/udp/239.77.1.189:5146
+#EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视高清
 http://172.17.0.2:7878/udp/239.77.1.148:5146
 #EXTINF:-1 tvg-name="深圳卫视" group-title="IPTV-深圳电视台",深圳卫视超清
 http://172.17.0.2:7878/udp/239.77.0.130:5146
@@ -81,14 +83,10 @@ http://172.17.0.2:7878/udp/239.77.0.25:5146
 http://172.17.0.2:7878/udp/239.77.0.201:5146
 #EXTINF:-1 tvg-name="HZTV-1" group-title="IPTV-广东地方台",HZTV-1高清
 http://172.17.0.2:7878/udp/239.77.1.232:5146
-#EXTINF:-1 tvg-name="HZTV-2" group-title="IPTV-广东地方台",HZTV-2高清
-http://172.17.0.2:7878/udp/239.77.1.233:5146
 #EXTINF:-1 tvg-name="珠海" group-title="IPTV-广东地方台",珠海高清
 http://172.17.0.2:7878/udp/239.77.0.155:5146
 #EXTINF:-1 tvg-name="肇庆综合" group-title="IPTV-广东地方台",肇庆综合高清
 http://172.17.0.2:7878/udp/239.253.43.1:5146
-#EXTINF:-1 tvg-name="肇庆生活服务" group-title="IPTV-广东地方台",肇庆生活服务高清
-http://172.17.0.2:7878/udp/239.253.43.2:5146
 #EXTINF:-1 tvg-name="河源综合" group-title="IPTV-广东地方台",河源综合高清
 http://172.17.0.2:7878/udp/239.253.43.213:5146
 #EXTINF:-1 tvg-name="河源公共" group-title="IPTV-广东地方台",河源公共高清
@@ -131,6 +129,8 @@ http://172.17.0.2:7878/udp/239.253.43.124:5146
 http://172.17.0.2:7878/udp/239.253.43.82:5146
 #EXTINF:-1 tvg-name="CCTV-1" group-title="IPTV-央视",CCTV-1高清
 http://172.17.0.2:7878/udp/239.77.1.144:5146
+#EXTINF:-1 tvg-name="CCTV-1" group-title="IPTV-央视",CCTV-1高清
+http://172.17.0.2:7878/udp/239.77.1.17:5146
 #EXTINF:-1 tvg-name="CCTV-1" group-title="IPTV-央视",CCTV-1高清(CCTV -1综合高清)
 http://172.17.0.2:7878/udp/239.77.0.86:5146
 #EXTINF:-1 tvg-name="CCTV-1" group-title="IPTV-央视",CCTV-1高清4M
@@ -171,8 +171,6 @@ http://172.17.0.2:7878/udp/239.77.0.171:5146
 http://172.17.0.2:7878/udp/239.77.0.178:5146
 #EXTINF:-1 tvg-name="CCTV-7" group-title="IPTV-央视",CCTV-7高清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.1.167:5146
-#EXTINF:-1 tvg-name="CCTV-7" group-title="IPTV-央视",CCTV-7高清
-http://172.17.0.2:7878/udp/239.77.1.159:5146
 #EXTINF:-1 tvg-name="CCTV-7" group-title="IPTV-央视",CCTV-7高清测试(CCTV -7军事农业高清)
 http://172.17.0.2:7878/udp/239.77.0.138:5146
 #EXTINF:-1 tvg-name="CCTV-8" group-title="IPTV-央视",CCTV-8高清
@@ -187,16 +185,18 @@ http://172.17.0.2:7878/udp/239.77.1.168:5146
 http://172.17.0.2:7878/udp/239.77.0.135:5146
 #EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清
 http://172.17.0.2:7878/udp/239.77.1.113:5146
+#EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清 (CAVS)
+http://172.17.0.2:7878/udp/239.77.1.169:5146
 #EXTINF:-1 tvg-name="CCTV-10" group-title="IPTV-央视",CCTV-10高清测试(CCTV-10科教高清)
 http://172.17.0.2:7878/udp/239.77.0.134:5146
+#EXTINF:-1 tvg-name="CCTV-11" group-title="IPTV-央视",CCTV-11高清
+http://172.17.0.2:7878/udp/239.77.1.108:5146
 #EXTINF:-1 tvg-name="CCTV-11" group-title="IPTV-央视",CCTV-11高清
 http://172.17.0.2:7878/udp/239.77.1.238:5146
 #EXTINF:-1 tvg-name="CCTV-12" group-title="IPTV-央视",CCTV-12高清
 http://172.17.0.2:7878/udp/239.77.1.109:5146
 #EXTINF:-1 tvg-name="CCTV-12" group-title="IPTV-央视",CCTV-12高清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.1.170:5146
-#EXTINF:-1 tvg-name="CCTV-12" group-title="IPTV-央视",CCTV-12高清 (CAVS)
-http://172.17.0.2:7878/udp/239.77.1.190:5146
 #EXTINF:-1 tvg-name="CCTV-12" group-title="IPTV-央视",CCTV-12高清测试
 http://172.17.0.2:7878/udp/239.77.0.136:5146
 #EXTINF:-1 tvg-name="CCTV-13" group-title="IPTV-央视",CCTV-13高清
@@ -205,10 +205,10 @@ http://172.17.0.2:7878/udp/239.253.43.196:5146
 http://172.17.0.2:7878/udp/239.77.0.188:5146
 #EXTINF:-1 tvg-name="CCTV-14" group-title="IPTV-央视",CCTV-14高清
 http://172.17.0.2:7878/udp/239.77.1.161:5146
+#EXTINF:-1 tvg-name="CCTV-14" group-title="IPTV-央视",CCTV-14高清
+http://172.17.0.2:7878/udp/239.77.1.171:5146
 #EXTINF:-1 tvg-name="CCTV-14" group-title="IPTV-央视",CCTV-14高清测试
 http://172.17.0.2:7878/udp/239.77.0.133:5146
-#EXTINF:-1 tvg-name="CCTV-15" group-title="IPTV-央视",CCTV-15高清
-http://172.17.0.2:7878/udp/239.77.1.120:5146
 #EXTINF:-1 tvg-name="CCTV-15" group-title="IPTV-央视",CCTV-15高清
 http://172.17.0.2:7878/udp/239.77.1.239:5146
 #EXTINF:-1 tvg-name="CCTV-16" group-title="IPTV-央视",CCTV-16高清
@@ -245,6 +245,8 @@ http://172.17.0.2:7878/udp/239.77.0.89:5146
 http://172.17.0.2:7878/udp/239.77.0.12:5146
 #EXTINF:-1 tvg-name="浙江卫视" group-title="IPTV-卫视",浙江卫视高清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.1.150:5146
+#EXTINF:-1 tvg-name="浙江卫视" group-title="IPTV-卫视",浙江卫视高清
+http://172.17.0.2:7878/udp/239.77.1.33:5146
 #EXTINF:-1 tvg-name="浙江卫视" group-title="IPTV-卫视",浙江卫视超清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.0.125:5146
 #EXTINF:-1 tvg-name="江苏卫视" group-title="IPTV-卫视",江苏卫视时移专用(江苏卫视)
@@ -267,12 +269,16 @@ http://172.17.0.2:7878/udp/239.77.1.156:5146
 http://172.17.0.2:7878/udp/239.77.1.218:5146
 #EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视
 http://172.17.0.2:7878/udp/239.77.0.183:5146
+#EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视高清
+http://172.17.0.2:7878/udp/239.77.1.92:5146
 #EXTINF:-1 tvg-name="安徽卫视" group-title="IPTV-卫视",安徽卫视高清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.1.157:5146
 #EXTINF:-1 tvg-name="北京卫视" group-title="IPTV-卫视",北京卫视时移专用(北京卫视)
 http://172.17.0.2:7878/udp/239.77.0.91:5146
 #EXTINF:-1 tvg-name="北京卫视" group-title="IPTV-卫视",北京卫视高清
 http://172.17.0.2:7878/udp/239.77.0.232:5146
+#EXTINF:-1 tvg-name="北京卫视" group-title="IPTV-卫视",北京卫视高清
+http://172.17.0.2:7878/udp/239.77.1.4:5146
 #EXTINF:-1 tvg-name="北京卫视" group-title="IPTV-卫视",北京卫视 4K
 http://172.17.0.2:7878/udp/239.77.0.233:5146
 #EXTINF:-1 tvg-name="天津卫视" group-title="IPTV-卫视",天津卫视
@@ -287,6 +293,8 @@ http://172.17.0.2:7878/udp/239.77.0.131:5146
 http://172.17.0.2:7878/udp/239.77.0.94:5146
 #EXTINF:-1 tvg-name="山东卫视" group-title="IPTV-卫视",山东卫视高清
 http://172.17.0.2:7878/udp/239.77.0.8:5146
+#EXTINF:-1 tvg-name="山东卫视" group-title="IPTV-卫视",山东卫视高清
+http://172.17.0.2:7878/udp/239.77.1.142:5146
 #EXTINF:-1 tvg-name="山东卫视" group-title="IPTV-卫视",山东卫视高清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.1.153:5146
 #EXTINF:-1 tvg-name="山东卫视" group-title="IPTV-卫视",山东卫视超清 (CAVS)
@@ -299,6 +307,8 @@ http://172.17.0.2:7878/udp/239.77.1.219:5146
 http://172.17.0.2:7878/udp/239.77.0.95:5146
 #EXTINF:-1 tvg-name="湖北卫视" group-title="IPTV-卫视",湖北卫视高清
 http://172.17.0.2:7878/udp/239.77.1.93:5146
+#EXTINF:-1 tvg-name="湖北卫视" group-title="IPTV-卫视",湖北卫视高清
+http://172.17.0.2:7878/udp/239.77.1.174:5146
 #EXTINF:-1 tvg-name="湖北卫视" group-title="IPTV-卫视",湖北卫视超清
 http://172.17.0.2:7878/udp/239.77.0.128:5146
 #EXTINF:-1 tvg-name="辽宁卫视" group-title="IPTV-卫视",辽宁卫视
@@ -310,17 +320,19 @@ http://172.17.0.2:7878/udp/239.77.0.161:5146
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="IPTV-卫视",黑龙江卫视
 http://172.17.0.2:7878/udp/239.77.0.93:5146
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="IPTV-卫视",黑龙江卫视高清
+http://172.17.0.2:7878/udp/239.77.1.6:5146
+#EXTINF:-1 tvg-name="黑龙江卫视" group-title="IPTV-卫视",黑龙江卫视高清
 http://172.17.0.2:7878/udp/239.77.1.179:5146
 #EXTINF:-1 tvg-name="黑龙江卫视" group-title="IPTV-卫视",黑龙江卫视超清
 http://172.17.0.2:7878/udp/239.77.0.124:5146
 #EXTINF:-1 tvg-name="贵州卫视" group-title="IPTV-卫视",贵州卫视
 http://172.17.0.2:7878/udp/239.77.0.230:5146
-#EXTINF:-1 tvg-name="贵州卫视" group-title="IPTV-卫视",贵州卫视高清
-http://172.17.0.2:7878/udp/239.77.1.221:5146
 #EXTINF:-1 tvg-name="四川卫视" group-title="IPTV-卫视",四川卫视时移专用(四川卫视)
 http://172.17.0.2:7878/udp/239.77.0.159:5146
 #EXTINF:-1 tvg-name="四川卫视" group-title="IPTV-卫视",四川卫视高清
 http://172.17.0.2:7878/udp/239.77.0.11:5146
+#EXTINF:-1 tvg-name="四川卫视" group-title="IPTV-卫视",四川卫视高清
+http://172.17.0.2:7878/udp/239.77.1.215:5146
 #EXTINF:-1 tvg-name="四川卫视" group-title="IPTV-卫视",四川卫视超清 (CAVS)
 http://172.17.0.2:7878/udp/239.77.0.163:5146
 #EXTINF:-1 tvg-name="河南卫视" group-title="IPTV-卫视",河南卫视
@@ -335,6 +347,8 @@ http://172.17.0.2:7878/udp/239.253.43.37:5146
 http://172.17.0.2:7878/udp/239.77.0.182:5146
 #EXTINF:-1 tvg-name="河北卫视" group-title="IPTV-卫视",河北卫视
 http://172.17.0.2:7878/udp/239.77.0.148:5146
+#EXTINF:-1 tvg-name="河北卫视" group-title="IPTV-卫视",河北卫视高清
+http://172.17.0.2:7878/udp/239.77.1.214:5146
 #EXTINF:-1 tvg-name="东南卫视" group-title="IPTV-卫视",东南卫视
 http://172.17.0.2:7878/udp/239.77.0.146:5146
 #EXTINF:-1 tvg-name="东南卫视" group-title="IPTV-卫视",东南卫视高清
@@ -442,6 +456,8 @@ http://172.17.0.2:7878/udp/239.253.43.114:5146
 #EXTINF:-1 tvg-name="CETV-4" group-title="IPTV-数字付费",CETV-4高清
 http://172.17.0.2:7878/udp/239.253.43.40:5146
 #EXTINF:-1 tvg-name="早期教育" group-title="IPTV-数字付费",早期教育高清
+http://172.17.0.2:7878/udp/239.77.1.122:5146
+#EXTINF:-1 tvg-name="早期教育" group-title="IPTV-数字付费",早期教育高清
 http://172.17.0.2:7878/udp/239.77.1.114:5146
 #EXTINF:-1 tvg-name="早期教育" group-title="IPTV-数字付费",早期教育高清
 http://172.17.0.2:7878/udp/239.77.0.180:5146
@@ -459,8 +475,8 @@ http://172.17.0.2:7878/udp/239.77.0.21:5146
 http://172.17.0.2:7878/udp/239.253.43.98:5146
 #EXTINF:-1 tvg-name="睛彩" group-title="IPTV-数字付费",睛彩青少高清
 http://172.17.0.2:7878/udp/239.77.1.22:5146
-#EXTINF:-1 tvg-name="睛彩" group-title="IPTV-数字付费",睛彩竞技高清
-http://172.17.0.2:7878/udp/239.77.1.20:5146
+#EXTINF:-1 tvg-name="睛彩" group-title="IPTV-数字付费",睛彩广场舞高清
+http://172.17.0.2:7878/udp/239.77.1.23:5146
 #EXTINF:-1 tvg-name="睛彩" group-title="IPTV-数字付费",睛彩篮球高清
 http://172.17.0.2:7878/udp/239.77.1.21:5146
 #EXTINF:-1 tvg-name="IPTV1" group-title="IPTV-IPTV频道",IPTV1高清
@@ -469,6 +485,8 @@ http://172.17.0.2:7878/udp/239.77.1.7:5146
 http://172.17.0.2:7878/udp/239.77.1.8:5146
 #EXTINF:-1 tvg-name="IPTV爱综艺" group-title="IPTV-IPTV频道",爱综艺
 http://172.17.0.2:7878/udp/239.77.0.107:5146
+#EXTINF:-1 tvg-name="IPTV3" group-title="IPTV-IPTV频道",IPTV3高清
+http://172.17.0.2:7878/udp/239.77.1.9:5146
 #EXTINF:-1 tvg-name="IPTV4" group-title="IPTV-IPTV频道",IPTV4高清
 http://172.17.0.2:7878/udp/239.77.1.10:5146
 #EXTINF:-1 tvg-name="IPTV爱体育" group-title="IPTV-IPTV频道",爱体育
